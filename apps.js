@@ -1,6 +1,6 @@
 function startCount(){
     const num = document.getElementById("number")
-    if(Number(num.value) == 0){
+    if(Number(num.value.length) == 0){
         window.alert("I need a number!!!!!!")
     }
     else{
